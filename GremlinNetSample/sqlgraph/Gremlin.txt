@@ -1,0 +1,3 @@
+g.V().has('name','Engineering').out('member').in('directReports').dedup().values('name')
+
+g.V().has('name','Engineering').out('member').in('directReports')
