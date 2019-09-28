@@ -24,7 +24,7 @@ Cosmos Emulator now supports Gremlin API (since version 2.1.4). This quick start
 6. Endpoints in the sample are preconfigured to run with the Emulator. You don't have to change anything apart for create a db named "graph", and a graph named "people", and create partition key "/pk", within the emulator portal that starts up after you have run the above Powershell command(s). .
 7. Build and Run the project.
 8. This will load data into your local Cosmos DB container. 
-9. You can traverse the graph data using a graph explorer application that has been added to this project (Note that node.js needs to be installed onto your system first for this to run properly - https://nodejs.org/en/download/). Open the GremlinNetSample.sln solution under the "Web" folder and restore the packages. Run the solution. 
+9. You can traverse the graph data using a graph explorer application that has been added to this project (Note that node.js needs to be installed onto your system first for this to run properly - https://nodejs.org/en/download/). Open the GraphExplorer.sln solution under the "Web" folder and restore the packages. Run the solution. 
 10. You can also compare this data with the same data in mysql - import the self-contained sqlgraph.sql file (\GremlinNetSample\sqlgraph) into a mysql database. You can run the queries in that folder.
 
 ## More information
