@@ -9,7 +9,7 @@ Azure Cosmos DB is Microsoft's globally distributed multi-model database service
 Cosmos Emulator now supports Gremlin API (since version 2.1.4). This quick start sample provides scripts for inserting data into gremlin API running on Azure Cosmos DB with a local emulator (see instructions below), and inserting the same data into a mysql database for comparison. See below for how to get started with the Graph (Gremlin) API for Azure Cosmos DB using the open-source connector Gremlin.Net and Cosmos DB Emulator.
 
 ## Getting started
-1. Clone this repository/
+1. Clone or download this repository/
 2. Open the GremlinNetSample.sln solution and restore the packages. 
 3. Go to your Cosmos DB Emulator install location and open PowerShell window in that location. Default install path is `C:\Program Files\Azure Cosmos DB Emulator`
 4. Gremlin Endpoint is not enabled by default. To enable it run Cosmos DB Emulator from CMD/PowerShell using following command: 
