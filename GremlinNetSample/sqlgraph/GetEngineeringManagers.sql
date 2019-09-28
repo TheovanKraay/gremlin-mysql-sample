@@ -7,3 +7,6 @@ INNER JOIN
 	) as T
 	ON T.EmployeeID = sqlgraph.Employee.ID
 WHERE sqlgraph.group.Name = 'Engineering';
+
+# Gremlin equivalent :-)
+# g.V().has('name','Engineering').out('member').in('directReports')
