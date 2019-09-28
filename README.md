@@ -25,7 +25,7 @@ Cosmos Emulator now supports Gremlin API (since version 2.1.4). This quick start
 7. Build and Run the project.
 8. This will load data into your local Cosmos DB container. 
 9. You can traverse the graph data using a graph explorer application that has been added to this project (Note that node.js needs to be installed onto your system first for this to run properly - https://nodejs.org/en/download/). Open the GremlinNetSample.sln solution under the "Web" folder and restore the packages. Run the solution. 
-10. You can also compare this data with the same data in mysql
+10. You can also compare this data with the same data in mysql - import the self-contained sqlgraph.sql file (\GremlinNetSample\sqlgraph) into a mysql database. You can run the queries in that folder.
 
 ## More information
 
