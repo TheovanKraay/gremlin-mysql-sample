@@ -75,9 +75,9 @@ namespace GremlinNetSample
             {"AddVertex 8", $"g.addV('person').property('pk', 'pk').property('id', 'New Person.').property('name', 'New Person.')"},
 
             //add group memberships (edges)
-            {"AddEdge 1", "g.V('Microsoft').addE('member').to(g.V('Azure'))"},
-            {"AddEdge 2", "g.V('Azure').addE('member').to(g.V('Sales'))"},
-            {"AddEdge 3", "g.V('Azure').addE('member').to(g.V('Engineering'))"},
+            {"AddEdge 1", "g.V('Microsoft').addE('subgroup').to(g.V('Azure'))"},
+            {"AddEdge 2", "g.V('Azure').addE('subgroup').to(g.V('Sales'))"},
+            {"AddEdge 3", "g.V('Azure').addE('subgroup').to(g.V('Engineering'))"},
             {"AddEdge 4", "g.V('Engineering').addE('member').to(g.V('Rimma N.'))"},
             {"AddEdge 5", "g.V('Engineering').addE('member').to(g.V('Andrew L.'))"},
             {"AddEdge 6", "g.V('Engineering').addE('member').to(g.V('New Person.'))"},
