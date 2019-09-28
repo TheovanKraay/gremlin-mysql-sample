@@ -6,7 +6,7 @@
 # cosmosdb-emulator-gremlin
 Azure Cosmos DB is Microsoft's globally distributed multi-model database service. You can quickly create and query document, table, key-value, and graph databases, all of which benefit from the global distribution and horizontal scale capabilities at the core of Azure Cosmos DB. 
 
-Cosmos Emulator now supports Gremlin API (since version 2.1.4). This quick start sample provides scripts for inserting data into gremlin API running on Azure Cosmos DB with a local emulator (see instructions below), and inserting the same data into a mysql database for comparison. There is also a Graph Exmplorer application included within the project, allowing you to query the graph from a UI. 
+Cosmos Emulator now supports Gremlin API (since version 2.1.4). This quick start sample provides scripts for inserting data into gremlin API running on Azure Cosmos DB with a local emulator (see instructions below), and inserting the same data into a mysql database for comparison. There is also a Graph Explorer app included within the project, allowing you to query the graph from a UI. 
 
 ## Getting started
 1. Ensure you have the Azure Cosmos DB Emulator running first (https://aka.ms/cosmosdb-emulator). Then, clone or download this repository/
