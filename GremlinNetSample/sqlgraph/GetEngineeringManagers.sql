@@ -9,4 +9,4 @@ INNER JOIN
 WHERE sqlgraph.group.Name = 'Engineering';
 
 # Gremlin equivalent :-)
-# g.V().has('name','Engineering').out('member').in('directReports')
+# g.V().has('name','Engineering').out('member').in('directReports').dedup().values('name')
