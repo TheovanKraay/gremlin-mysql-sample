@@ -16,7 +16,7 @@ Cosmos Emulator now supports Gremlin API (since version 2.1.4). This quick start
 ```powershell
 .\CosmosDB.Emulator.exe /EnableGremlinEndpoint
 ```
- 5. Gremlin Endpoint will be opened on port `8901` by default. If you want to change that port run Emulator wiht follwing command:
+ 5. Gremlin Endpoint will be opened on port `8901` by default. If you want to change that port run Emulator with the following command:
  
  ```powershell
 .\CosmosDB.Emulator.exe /EnableGremlinEndpoint /GremlinPort=<port_number>
